@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "frontend/myfirstclass/",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build - frontend/myfirstclass",
+			"detail": "react-scripts build"
+		},
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "frontend/myfirstclass/",
+			"problemMatcher": [],
+			"label": "npm: install - frontend/myfirstclass",
+			"detail": "install dependencies from package"
+		}
+	]
+}
